@@ -118,6 +118,21 @@ Endpoints disponibles:
 - /factores_rendimiento
 
 ---
+## Documentación de la API
+
+FastAPI genera automáticamente documentación interactiva y detallada para todos los endpoints. Una vez que el servidor local esté corriendo, podés acceder desde tu navegador a cualquiera de estas dos interfaces:
+
+- **Swagger UI (Interactiva):** `http://127.0.0.1:8000/docs` (Permite interactuar y probar las respuestas de los endpoints en vivo).
+- **ReDoc (Estructurada):** `http://127.0.0.1:8000/redoc`
+
+### Resumen de Endpoints Principales
+
+| Endpoint | Método | Descripción | Ejemplo de Respuesta |
+| :--- | :--- | :--- | :--- |
+| `/resumen` | `GET` | Métmeras generales de la base de datos (Total de sesiones y promedios globales). | `{"total_sesiones": 61, "promedio_ansiedad": 3.05, ...}` |
+| `/tecnicas` | `GET` | Comprensión promedio ordenada de mayor a menor según la técnica utilizada. | `[{"tecnica": "Ejercicios / práctica", "promedio_comprension": 3.8}]` |
+| `/momento_del_dia` | `GET` | Rendimiento (ansiedad, concentración y comprensión) según la franja horaria. | `[{"cantidad_sesiones": 18, "momento_del_dia": "2. Mañana", ...}]` |
+| `/ansiedad_comprension` | `GET` | Relación directa de impacto entre el nivel de ansiedad y las métricas de rendimiento. | `[{"nivel_ansiedad": 5, "promedio_comprension": 2.7}]` |
 
 ## Próximas mejoras
 
