@@ -1,0 +1,31 @@
+column_name,raw_value,normalized_value
+hours_slept,0 - 3,0_3
+hours_slept,4 - 5,4_5
+hours_slept,6 - 7,6_7
+hours_slept,8 o más,8_or_more
+course_type ,Programación / tecnología,programming_tech
+course_type ,Otra,other
+course_type ,Idiomas,languages
+course_type ,Humanidades,social_sciences
+course_type ,Matemática / lógica,math_logic
+technique,Lectura,reading
+technique,Resumen / escritura,summarizing_writing
+technique,Ejercicios / práctica,exercises_practice
+technique,Video / clase grabada,video_recorded_class
+technique,Mapas conceptuales,concept_maps
+technique,Otro,other
+duration_minutes,1–2 horas,60_120
+duration_minutes,Más de 2 horas,more_than_120
+duration_minutes,15–30 min,15_30
+duration_minutes,30–60 min,30_60
+break_type,Usé el celular,phone_usage
+break_type,No hice pausas,not_applicable
+break_type,Comí o tomé algo,eating_drinking
+break_type,Caminé / me moví,walking_moving
+break_type,Otra,other
+break_type,Respiración / meditación,breathing_meditation
+time_of_day,Mañana,morning
+time_of_day,Noche,night
+time_of_day,Tarde,afternoon
+time_of_day,,NULL
+time_of_day,Madrugada,early_morning
